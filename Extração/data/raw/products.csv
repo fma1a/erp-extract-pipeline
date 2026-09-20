@@ -1,0 +1,121 @@
+product_id,product_name,category,cost_price,list_price,active
+1,Facere Bele-1,Beleza,261.64,616.28,False
+2,Quam Pet -2,Pet Shop,357.96,439.91,True
+3,Optio Livr-3,Livros,414.69,540.29,True
+4,Voluptatem Espo-4,Esporte e Lazer,777.64,1063.54,True
+5,Distinctio Elet-5,Eletrônicos,725.66,1081.58,True
+6,Sint Brin-6,Brinquedos,681.17,1554.13,True
+7,Iste Brin-7,Brinquedos,128.0,341.85,True
+8,Ipsam Bele-8,Beleza,80.68,104.24,True
+9,Doloribus Brin-9,Brinquedos,717.28,1169.37,False
+10,Laboriosam Moda-10,Moda,643.29,858.14,True
+11,Vero Moda-11,Moda,218.92,305.32,False
+12,Eaque Brin-12,Brinquedos,742.07,1208.52,True
+13,Unde Espo-13,Esporte e Lazer,751.12,2066.14,True
+14,Nihil Casa-14,Casa e Decoração,169.4,287.84,True
+15,Aspernatur Espo-15,Esporte e Lazer,239.07,478.17,True
+16,A Bele-16,Beleza,644.91,1800.07,False
+17,Eveniet Elet-17,Eletrônicos,589.13,1226.38,True
+18,Repellat Pet -18,Pet Shop,204.09,390.89,True
+19,Laborum Brin-19,Brinquedos,528.64,1096.11,True
+20,Accusamus Livr-20,Livros,553.32,1533.75,True
+21,Facere Casa-21,Casa e Decoração,329.71,579.0,True
+22,Sequi Casa-22,Casa e Decoração,21.26,46.79,True
+23,Animi Brin-23,Brinquedos,138.96,185.54,True
+24,Amet Livr-24,Livros,483.03,1114.98,False
+25,Itaque Casa-25,Casa e Decoração,134.45,257.25,True
+26,Eum Bele-26,Beleza,778.37,1615.36,True
+27,Ipsum Livr-27,Livros,182.11,271.84,True
+28,Fugiat Moda-28,Moda,384.97,771.64,True
+29,Maiores Elet-29,Eletrônicos,81.77,205.02,True
+30,Incidunt Elet-30,Eletrônicos,321.24,539.5,True
+31,Minima Moda-31,Moda,472.61,967.29,True
+32,Sit Brin-32,Brinquedos,613.81,1444.35,True
+33,Libero Livr-33,Livros,582.08,1297.54,False
+34,Mollitia Brin-34,Brinquedos,589.74,1474.08,True
+35,Minus Elet-35,Eletrônicos,662.86,1414.87,True
+36,Id Espo-36,Esporte e Lazer,77.22,97.84,True
+37,Culpa Moda-37,Moda,307.53,591.14,True
+38,Eum Elet-38,Eletrônicos,504.72,1155.34,True
+39,Accusantium Elet-39,Eletrônicos,370.99,486.81,True
+40,Veritatis Moda-40,Moda,530.85,693.12,True
+41,Neque Livr-41,Livros,649.28,1658.14,True
+42,Tempora Espo-42,Esporte e Lazer,192.28,430.69,True
+43,Reiciendis Brin-43,Brinquedos,70.62,187.62,True
+44,Exercitationem Elet-44,Eletrônicos,497.41,1108.44,True
+45,Temporibus Casa-45,Casa e Decoração,272.1,610.17,True
+46,Asperiores Casa-46,Casa e Decoração,19.85,25.75,True
+47,Dolores Moda-47,Moda,556.83,1270.2,True
+48,Distinctio Livr-48,Livros,377.08,733.85,True
+49,Inventore Espo-49,Esporte e Lazer,256.22,342.66,True
+50,Explicabo Livr-50,Livros,372.59,935.89,True
+51,Quae Pet -51,Pet Shop,795.23,1446.49,True
+52,Ullam Espo-52,Esporte e Lazer,68.94,92.69,True
+53,Itaque Livr-53,Livros,762.66,1077.0,True
+54,Modi Livr-54,Livros,710.62,1652.43,True
+55,Nostrum Pet -55,Pet Shop,321.32,467.36,True
+56,Inventore Pet -56,Pet Shop,330.28,780.61,True
+57,Deleniti Brin-57,Brinquedos,259.7,660.77,False
+58,Excepturi Bele-58,Beleza,672.9,936.72,True
+59,Quis Elet-59,Eletrônicos,722.24,1201.61,True
+60,Labore Brin-60,Brinquedos,318.23,824.84,True
+61,Velit Brin-61,Brinquedos,606.97,1557.98,True
+62,Aspernatur Elet-62,Eletrônicos,669.39,1109.18,True
+63,Laborum Espo-63,Esporte e Lazer,777.12,1474.96,True
+64,Doloribus Bele-64,Beleza,630.26,1187.66,False
+65,Ipsum Brin-65,Brinquedos,731.6,1979.06,True
+66,Deserunt Moda-66,Moda,49.09,116.43,True
+67,Veritatis Casa-67,Casa e Decoração,519.15,860.72,False
+68,Quis Casa-68,Casa e Decoração,144.9,270.06,True
+69,Ullam Livr-69,Livros,593.84,1640.23,True
+70,Architecto Espo-70,Esporte e Lazer,247.66,518.03,True
+71,Quo Casa-71,Casa e Decoração,518.13,684.07,True
+72,Odit Pet -72,Pet Shop,444.81,856.16,True
+73,Labore Pet -73,Pet Shop,347.66,721.9,True
+74,Optio Casa-74,Casa e Decoração,280.14,377.0,True
+75,Officiis Livr-75,Livros,649.39,989.3,False
+76,Error Brin-76,Brinquedos,312.44,747.78,True
+77,Laboriosam Livr-77,Livros,277.18,360.14,True
+78,Magni Bele-78,Beleza,109.44,219.47,True
+79,Expedita Espo-79,Esporte e Lazer,83.15,219.09,True
+80,At Pet -80,Pet Shop,351.15,596.68,True
+81,Consequuntur Elet-81,Eletrônicos,110.53,207.83,True
+82,Cumque Pet -82,Pet Shop,774.94,1537.26,True
+83,Itaque Pet -83,Pet Shop,778.07,1243.0,True
+84,Alias Casa-84,Casa e Decoração,130.13,358.51,True
+85,Alias Pet -85,Pet Shop,77.15,188.48,False
+86,Eum Casa-86,Casa e Decoração,193.74,517.65,True
+87,Maxime Livr-87,Livros,770.32,1696.52,True
+88,Aut Brin-88,Brinquedos,561.88,775.06,True
+89,Sint Espo-89,Esporte e Lazer,316.58,493.15,True
+90,Atque Elet-90,Eletrônicos,434.61,1214.39,True
+91,Praesentium Bele-91,Beleza,519.21,1357.23,True
+92,Asperiores Espo-92,Esporte e Lazer,442.13,551.27,True
+93,Eius Livr-93,Livros,53.69,81.1,True
+94,Officiis Brin-94,Brinquedos,74.06,115.87,True
+95,Tempore Bele-95,Beleza,189.16,237.31,True
+96,Natus Brin-96,Brinquedos,296.23,543.34,False
+97,Ipsa Livr-97,Livros,593.91,1192.46,True
+98,Perferendis Espo-98,Esporte e Lazer,256.26,643.73,True
+99,Minus Espo-99,Esporte e Lazer,219.37,575.39,True
+100,Ipsa Pet -100,Pet Shop,491.98,1296.05,True
+101,Tempore Elet-101,Eletrônicos,759.52,1089.31,True
+102,Suscipit Espo-102,Esporte e Lazer,28.67,61.75,True
+103,Repellat Elet-103,Eletrônicos,155.44,298.36,True
+104,Optio Bele-104,Beleza,588.85,1646.45,True
+105,Ipsum Bele-105,Beleza,160.64,360.47,True
+106,Laborum Pet -106,Pet Shop,35.2,79.66,True
+107,Ipsa Bele-107,Beleza,788.14,1503.69,True
+108,Libero Moda-108,Moda,231.05,407.19,True
+109,Rem Moda-109,Moda,453.29,1094.28,True
+110,Corrupti Livr-110,Livros,659.39,1247.51,False
+111,Sapiente Pet -111,Pet Shop,164.62,340.18,True
+112,Repudiandae Bele-112,Beleza,297.76,784.65,False
+113,Quas Brin-113,Brinquedos,205.93,453.18,True
+114,Atque Brin-114,Brinquedos,37.53,48.79,True
+115,Perspiciatis Livr-115,Livros,164.0,213.29,True
+116,Occaecati Bele-116,Beleza,225.13,615.12,True
+117,Nesciunt Livr-117,Livros,599.69,1381.28,True
+118,Accusantium Livr-118,Livros,12.98,31.27,True
+119,Vel Moda-119,Moda,29.16,45.9,True
+120,Eum Pet -120,Pet Shop,763.59,1388.53,True
