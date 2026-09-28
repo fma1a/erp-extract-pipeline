@@ -18,7 +18,7 @@ import requests
 # ---------------------------------------------------------------------------
 # Configuração
 # ---------------------------------------------------------------------------
-BASE_URL = "http://localhost:8000"
+BASE_URL = os.environ.get("ERP_BASE_URL", "http://localhost:8000")
 CLIENT_ID = "erp_demo_client"
 CLIENT_SECRET = "erp_demo_secret_2026"
 
