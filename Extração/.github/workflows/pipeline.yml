@@ -1,0 +1,36 @@
+name: Extração e carga do ERP
+
+on:
+  schedule:
+    - cron: '30 5 * * *'  # 5:30 UTC = 2:30 da manhã no Brasil
+  workflow_dispatch:       # permite rodar manualmente também, pelo botão "Run workflow"
+
+jobs:
+  extract-and-load:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Extração
+    steps:
+      - name: Checkout do código
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependências
+        run: pip install -r requirements.txt
+
+      - name: Rodar extração + carga
+        env:
+          ERP_BASE_URL: ${{ secrets.ERP_BASE_URL }}
+          SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+          SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+          SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
+          SNOWFLAKE_ROLE: ${{ secrets.SNOWFLAKE_ROLE }}
+          SNOWFLAKE_WAREHOUSE: ${{ secrets.SNOWFLAKE_WAREHOUSE }}
+          SNOWFLAKE_DATABASE: ${{ secrets.SNOWFLAKE_DATABASE }}
+          SNOWFLAKE_SCHEMA: ${{ secrets.SNOWFLAKE_SCHEMA }}
+        run: python orchestrate.py
