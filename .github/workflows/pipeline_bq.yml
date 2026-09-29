@@ -1,0 +1,41 @@
+name: Carga BigQuery do ERP
+
+on:
+  schedule:
+    - cron: '0 6 * * *'  # 6:00 UTC = 3:00 da manha no Brasil (30 min depois da carga do Snowflake)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write   # necessario para o login via Workload Identity Federation
+
+jobs:
+  extract-and-load-bq:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: Extração
+    steps:
+      - name: Checkout do codigo
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: pip install -r requirements.txt
+
+      - name: Autenticar no Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: 'projects/40566739622/locations/global/workloadIdentityPools/github-actions-pool/providers/github-provider'
+          service_account: 'erp-pipeline-loader@pipeline-simulation.iam.gserviceaccount.com'
+
+      - name: Rodar extracao + carga no BigQuery
+        env:
+          ERP_BASE_URL: ${{ secrets.ERP_BASE_URL }}
+          GCP_PROJECT_ID: pipeline-simulation
+          GCP_BRONZE_DATASET: bronze
+        run: python orchestrate_bq.py
