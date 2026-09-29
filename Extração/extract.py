@@ -15,6 +15,8 @@ import time
 import pandas as pd
 import requests
 
+from dotenv import load_dotenv
+load_dotenv()
 # ---------------------------------------------------------------------------
 # Configuração
 # ---------------------------------------------------------------------------

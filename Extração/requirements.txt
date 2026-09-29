@@ -2,3 +2,5 @@ requests
 pandas
 snowflake-connector-python[pandas]
 python-dotenv
+google-cloud-bigquery
+pandas-gbq
